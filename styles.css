@@ -114,6 +114,12 @@ body {
     width: 19rem;
     height: 3rem;
     color: var(--very-pale-blue);
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paymentButton:hover {
+    background-color: hsl(245, 74%, 64%);
 }
 
 .displayBox {
@@ -126,8 +132,19 @@ body {
 
 .cancelOrder {
     color: var(--dark-blue);
-}
-
-a {
     text-decoration: none;
 }
+
+.cancelOrder:hover {
+    color: hsl(224, 24%, 46%);
+}
+
+.changeButton {
+    color: var(--bright-blue);
+}
+
+.changeButton:hover {
+    text-decoration: none;
+    color: hsl(245, 74%, 64%);
+}
+
